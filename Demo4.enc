@@ -1,0 +1,33 @@
+interface A
+	{
+	int data=12;
+	void show();
+	void display();
+	}
+interface B
+	{
+	void call();
+	}
+public class Demo4 implements A,B
+	{
+	public void show()
+		{
+		System.out.println("I am in show");
+		}
+	public void display()
+		{
+		System.out.println("I am in didplay");
+		}
+	public void call()
+		{
+		System.out.println("I am in  call");
+		}
+	public static void main(String args[])
+		{
+		Demo4 dd=new Demo4();
+		dd.display();
+		dd.show();
+		dd.call();
+	System.out.println("data value is "+data);
+		}
+	}

@@ -1,0 +1,28 @@
+public class Demo
+	{
+	public static void main(String args[])
+		{
+		StringBuffer sb=new StringBuffer("I Java");
+		StringBuffer ss=sb.insert(2,"Like ");
+		System.out.println(sb+"\t"+ss);
+		if(ss==sb)
+			{
+			System.out.println("Equals");
+			}else{
+			System.out.println("Not Equals.");
+			}
+		sb.deleteCharAt(0);
+		System.out.println(ss);
+		sb.delete(0,6);
+		System.out.println(ss);
+		sb.reverse();
+		System.out.println(ss);
+		StringBuffer ss1=new StringBuffer("Java");
+		ss1.append(ss);
+		System.out.println(ss1);
+		}
+	}
+
+		
+
+	

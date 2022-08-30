@@ -1,0 +1,22 @@
+class A
+	{
+	public void show()
+		{
+		System.out.println("I am in show");
+		}
+	}
+
+public class Demo extends A
+	{
+public  final static void main(String args[])
+		{
+		System.out.println("I am in JT");
+		}
+	
+	public void show1()
+		{
+	System.out.println("I am in show of Demo");
+		}
+	}
+
+

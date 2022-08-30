@@ -1,0 +1,58 @@
+import java.util.*;
+
+public class Count
+	{
+	public static void main(String args[])
+		{
+		Scanner ss=new Scanner(System.in);
+		System.out.println("Enter Somthing");
+		String s=ss.nextLine();
+		
+		int sp,v,c,sy,n,w;
+		sp=v=c=sy=n=w=0;
+		
+		String txt=s.toLowerCase();
+		
+		for(int i=0;i<s.length();i++)
+			{
+			char ch=txt.charAt(i);
+if(ch=='a' || ch=='e' || ch=='i' || ch=='o' ||ch=='u')
+		{
+		v++;
+		}
+else if(ch==' ')
+		{
+		sp++;
+		}
+else if(ch>='0' && ch<='9')
+		{
+		n++;
+		}
+else if(ch>'a' && ch<='z')
+		{
+		c++;
+		}
+else{
+	sy++;
+	}
+}
+
+System.out.println("There are "+v+" Vowel");
+System.out.println(c+" Consonent");
+System.out.println(n+" Numbers");
+System.out.println(sy+" Symbol");
+System.out.println(sp+" Space");
+String x[]=s.split(" ");
+w=x.length;
+System.out.println(w+" Words are available");
+	}
+	}
+
+
+
+
+
+
+
+
+			

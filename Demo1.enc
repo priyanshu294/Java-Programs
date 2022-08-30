@@ -1,0 +1,13 @@
+public class Demo1
+	{
+	final int a=10;
+	static final int b=11;
+	
+	public static void main(String rags[])
+		{
+		int d=b;
+		final int c=12;
+		System.out.println(d++);
+		}
+	}
+		

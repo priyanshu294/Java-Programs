@@ -1,0 +1,21 @@
+public class Demo2
+	{
+	public strictfp static void main(String args[])
+		{
+		double a=12.66;
+		double b=3.93;
+	
+		double c=a/b;
+		System.out.println(c);
+		show();
+		}
+	public static void show()
+		{
+		double a=12.66;
+		double b=3.93;
+	
+		double c=a/b;
+		System.out.println(c);
+		}
+
+	}

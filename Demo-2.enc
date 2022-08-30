@@ -1,0 +1,21 @@
+public class Demo
+	{
+	public static void main(String args[])
+		{
+		String s="I am in JT";
+		StringBuilder sb=new StringBuilder(s);
+		sb.append(" BBSR");
+		
+		sb.insert(11,"Saheed Nagar ");
+
+		System.out.println(sb.toString());
+			
+		sb.replace(8,10,"Java Technocrat");
+		System.out.println(sb.toString());
+		String a=sb.substring(8,36);
+		System.out.println(a);
+		System.out.println(sb.capacity());
+		System.out.println(sb.length());
+		
+		}
+	}	
